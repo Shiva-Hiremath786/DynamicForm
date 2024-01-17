@@ -1,0 +1,146 @@
+/* DynamicFormGenerator.css */
+body {
+  background-color: #67a9e4;
+}
+
+.dynamic-form-container {
+  max-width: 68rem;
+  margin: 29px auto;
+  padding: 20px;
+  background-color: rgba(238, 238, 232, 0.81);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-buttons button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-buttons button:hover {
+  background-color: #45a049;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form-field input,
+.form-field select {
+  padding: 10px; /* Adjusted padding for input fields */
+  margin-right: 10px;
+  width: 200px;
+  border: 2px solid #ddd; /* Added border */
+  border-radius: 4px; /* Added border radius */
+  outline: none;
+}
+
+.form-field input:focus,
+.form-field select:focus {
+  border-color: #4caf50; /* Highlight border on focus */
+}
+
+.form-field button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.form-field button:hover {
+  background-color: #c9302c;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
+
+/* Improved styling for checkboxes and radio buttons */
+.form-field label {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.form-field input[type="checkbox"]
+ {
+  margin: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 5px;
+}
+.form-field input[type="radio"]{
+  margin: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #6e6e6e;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 5px;
+}
+
+.form-field input[type="checkbox"]:checked,
+.form-field input[type="radio"]:checked {
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+}
+.form-field input[type="radio"]:checked{
+  background-color: #0d53d4;
+  border: 2px solid #696967;
+}
+
+
+.submit-button {
+  padding: 10px 132px;
+  margin-top: 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #286090;
+}
